@@ -1,0 +1,20 @@
+Source: hamster-sidejack
+Section: net
+Priority: extra
+Maintainer: dookie <dookie@kali.org>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Homepage: http://www.erratasec.com/research.html
+Vcs-Git: ssh://git@git.kali.org/packages/hamster-sidejack.git
+Vcs-Browser: http://git.kali.org/gitweb/?p=packages/hamster-sidejack.git;a=summary
+
+Package: hamster-sidejack
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Sidejacking tool
+ Hamster is tool or "sidejacking". It acts as a proxy server that
+ replaces your cookies with session cookies stolen from somebody
+ else, allowing you to hijack their sessions.
+ .
+ Cookies are sniffed using the Ferret program. You need a copy of
+ that as well.

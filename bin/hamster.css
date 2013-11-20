@@ -1,0 +1,11 @@
+#statustable td.statuserror {
+	background-color:pink;
+}
+
+#statustable td.statusok {
+	background-color:white;
+}
+
+#statustable th {
+	text-align: right;
+}

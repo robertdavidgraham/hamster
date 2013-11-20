@@ -1,0 +1,5 @@
+Created a tmp directory that the Makefile want.
+--- /dev/null
++++ b/tmp/readme.txt
+@@ -0,0 +1 @@
++This is a tmp directory needed by the Makefile.
